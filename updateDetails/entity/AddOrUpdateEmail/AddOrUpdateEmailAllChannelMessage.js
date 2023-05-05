@@ -1,1 +1,0 @@
-//To capture operation for email

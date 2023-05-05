@@ -1,1 +1,0 @@
-For%20capturing%20account%20type%20which%20bank%20supports%20irrespective%20of%20customer.

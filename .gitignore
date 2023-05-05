@@ -7,6 +7,9 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+# Dialog Names
+Dialogs/
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
