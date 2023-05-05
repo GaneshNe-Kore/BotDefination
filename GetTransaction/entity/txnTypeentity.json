@@ -1,0 +1,54 @@
+{
+    "nodeOptions": {
+        "customTags": {
+            "session": [],
+            "message": [],
+            "user": []
+        },
+        "transitionType": "auto",
+        "isRetriesExceeded": false,
+        "promptOptions": "optional",
+        "reuseMarkedupPhrases": false,
+        "interruptOptions": {
+            "priority": "task",
+            "type": {
+                "option": "doNotAllowHoldResume"
+            }
+        },
+        "transitionMode": "initiateCurrentTask",
+        "inputHandlingOptions": "useAsEntityValue",
+        "reuseOptions": "1",
+        "userInputCorrection": true,
+        "noAutoCorrection": false,
+        "notForReuse": false,
+        "contextTags": [],
+        "precedence": "entityOverIntent",
+        "message": [],
+        "errorMessage": [],
+        "eventOptions": {
+            "defaultMaxRetry": {
+                "retry_limit": 5,
+                "action": "endOfDialog"
+            }
+        }
+    },
+    "vNameSpace": [],
+    "preConditions": [],
+    "useTaskLevelNs": true,
+    "nodeId": "entity101",
+    "type": "entity",
+    "transitions": [
+        {
+            "default": "end",
+            "metadata": {
+                "color": "#299d8e",
+                "connId": "dummy632"
+            }
+        }
+    ],
+    "metadata": {
+        "left": 1806,
+        "top": 1512
+    },
+    "componentId": "dc-5c425cd1-55f5-5217-a914-7f5faeeb5ee8"
+}

@@ -1,0 +1,63 @@
+{
+    "nodeOptions": {
+        "customTags": {
+            "session": [],
+            "message": [],
+            "user": []
+        },
+        "transitionType": "auto",
+        "isRetriesExceeded": false,
+        "promptOptions": "optional",
+        "reuseMarkedupPhrases": false,
+        "interruptOptions": {
+            "priority": "task"
+        },
+        "transitionMode": "initiateCurrentTask",
+        "inputHandlingOptions": "useAsEntityValue",
+        "reuseOptions": "1",
+        "userInputCorrection": true,
+        "noAutoCorrection": false,
+        "notForReuse": false,
+        "contextTags": [],
+        "message": [
+            {
+                "channel": "default",
+                "localeData": {
+                    "en": {
+                        "text": "// This is to capture country name",
+                        "type": "basic"
+                    },
+                    "es": {
+                        "text": "// This is to capture country name",
+                        "type": "basic"
+                    },
+                    "ar": {
+                        "text": "// This is to capture country name",
+                        "type": "basic"
+                    }
+                }
+            }
+        ],
+        "errorMessage": [],
+        "precedence": "entityOverIntent"
+    },
+    "vNameSpace": [],
+    "preConditions": [],
+    "useTaskLevelNs": true,
+    "nodeId": "entity88",
+    "type": "entity",
+    "transitions": [
+        {
+            "default": "entity76",
+            "metadata": {
+                "color": "#299d8e",
+                "connId": "dummy445"
+            }
+        }
+    ],
+    "metadata": {
+        "left": 1426,
+        "top": 2013
+    },
+    "componentId": "dc-d625d697-64e0-520b-b6fd-c3219026ce3c"
+}

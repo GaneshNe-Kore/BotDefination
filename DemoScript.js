@@ -1,0 +1,1 @@
+var userMsg = content.ivr_MultipleAccounts
