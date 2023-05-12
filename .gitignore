@@ -9,6 +9,10 @@ lerna-debug.log*
 
 # Dialog Names
 Dialogs/
+Dialogs1/
+Dialogs2/
+Dialogs3/
+
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -131,3 +135,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+FewShotDev1Copy/
+botKeys/
+botDefinition/
+BankAssist Solution/
+BankAssist Solution2/
+test.js
+test2.js
